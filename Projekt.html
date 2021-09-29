@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/321942191f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Projektarbete</title>
+  </head>
+  <body>
+
+    <!-- HEADER
+      Ska fixa längre sökbar i mobile -->
+    <header class="container-fluid">
+      <div class="row">
+        <div class="col col-12 col-sm">
+          <img class="w-100 p-2" src="https://placekitten.com/280/110" alt="Logo" />
+        </div>
+        <div class="col d-block col-6-sm d-flex align-items-center p-2">
+          <form class="w-100">
+            <input 
+              type="search"
+              class="form-control rounded"
+              placeholder="Search"
+              aria-label="Search"
+              aria-describedby="search-addon"
+            />
+          </form>
+        </div>
+      </div>
+      <div class="nav container-fluid">
+        <div class="row">
+          <ul class="d-sm-flex gap-4">
+            <li><a href="#">Nyheter</a></li>
+            <li><a href="#">Kategorier</a></li>
+            <li><a href="#">Topplistan</a></li>
+            <li><a href="#">Rea</a></li>
+            <li><a href="#">Kampanjer</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO 
+        Ska fixa desktop, bilden ska till höger i desktop -->
+      <section class="hero container-fluid m-2 p-2">
+        <div class="row flex-sm-row-reverse">
+          <div class="col col-sm-6">
+            <img src="https://placekitten.com/500/190" alt="HeroPic" class="w-100"/>
+          </div>
+          <!-- <div class="row"> -->
+            <article class="col col-sm-6">
+              <span class="h1 d-block">Lorem ipsum dolor</span>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et magna aliqua.
+              <div class="row justify-content-center">
+                <button class="button col-4">Lorem</button>
+              </div>
+            </article>
+          <!-- </div> -->
+        </div>
+      </section>
+
+      <!-- KLAR SPOTS
+        Döljer i mobilläge -->
+      <div class="spots container-fluid d-none d-sm-flex justify-content-center">
+        <div class="row p-4">
+            <div class="cat col-4">
+              <div class="p-2 text-center border border-dark" >
+                <img src="https://placekitten.com/200/150" class="w-100 img-fluid" alt="Bild1" />
+                <span class="d-block">Lorem ipsum dolor</span>
+              </div>
+            </div>
+            <div class="cat col-4 ">
+              <div class="p-2 text-center border border-dark">
+                <img src="https://placekitten.com/200/150" class="w-100 img-fluid" alt="Bild2" />
+                <span class="d-block">Lorem ipsum dolor</span>
+              </div>
+            </div>
+            <div class="cat col-4 ">
+              <div class="p-2 text-center border border-dark">
+                <img src="https://placekitten.com/200/150" class="w-100 img-fluid" alt="Bild3" />
+                <span class="d-block">Lorem ipsum dolor</span>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- POPULÄRA PRODUKTER
+      Text i mitten, på rad desktop -->
+      <div class="container">
+          <h1 class="text-center">Populära Produkter</h1>
+          <article class="row">
+              <div class="col-12 col-sm-3">
+                <div class="">
+                  <img src="https://placekitten.com/100/120" class="w-100" alt="Product1"/>
+                </div>
+                <div class="products-info">
+                  <div class="row p-2">
+                    <p class="products-text col">Lorem ipsum dolor</p>
+                    <p class="products-price col text-end">249 kr</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-3">
+                <div class="">
+                  <img src="https://placekitten.com/100/120" class="w-100" alt="Product1"/>
+                </div>
+                <div class="products-info">
+                  <div class="row p-2">
+                    <p class="products-text col">Lorem ipsum dolor</p>
+                    <p class="products-price col text-end">249 kr</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-3">
+                <div class="">
+                  <img src="https://placekitten.com/100/120" class="w-100" alt="Product1"/>
+                </div>
+                <div class="products-info">
+                  <div class="row p-2">
+                    <p class="products-text col">Lorem ipsum dolor</p>
+                    <p class="products-price col text-end">249 kr</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-3">
+                <div class="">
+                  <img src="https://placekitten.com/100/120" class="w-100" alt="Product1"/>
+                </div>
+                <div class="products-info">
+                  <div class="row p-2">
+                    <p class="products-text col">Lorem ipsum dolor</p>
+                    <p class="products-price col text-end">249 kr</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-3">
+                <div class="">
+                  <img src="https://placekitten.com/100/120" class="w-100" alt="Product1"/>
+                </div>
+                <div class="products-info">
+                  <div class="row p-2">
+                    <p class="products-text col">Lorem ipsum dolor</p>
+                    <p class="products-price col text-end">249 kr</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-3">
+                <div class="">
+                  <img src="https://placekitten.com/100/120" class="w-100" alt="Product1"/>
+                </div>
+                <div class="products-info">
+                  <div class="row p-2">
+                    <p class="products-text col">Lorem ipsum dolor</p>
+                    <p class="products-price col text-end">249 kr</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-3">
+                <div class="">
+                  <img src="https://placekitten.com/100/120" class="w-100" alt="Product1"/>
+                </div>
+                <div class="products-info">
+                  <div class="row p-2">
+                    <p class="products-text col">Lorem ipsum dolor</p>
+                    <p class="products-price col text-end">249 kr</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-3">
+                  <img src="https://placekitten.com/100/120" class="w-100" alt="Product1"/>
+                <div class="products-info">
+                  <div class="row p-2">
+                    <p class="products-text col">Lorem ipsum dolor</p>
+                    <p class="products-price col text-end">249 kr</p>
+                  </div>
+                </div>
+              </div>
+          </article>
+      </div>
+
+    </main>
+    <footer>
+      <!-- 
+        ICONS
+        Ska vara rak rad i desktop
+       -->
+      <nav class="icons container">
+          <div class="row">
+            <ul class="d-sm-flex">
+              <li><a href="#"><i class="fas fa-globe-europe m-2"></i>Gratis frakt och returer</a></li>
+              <li><a href="#"><i class="fas fa-fighter-jet m-2"></i>Expressfrakt</a></li>
+              <li><a href="#"><i class="fas fa-shield-alt m-2"></i>Säkra betalningar</a></li>
+              <li><a href="#"><i class="far fa-smile m-2"></i>Nyheter varje dag</a></li>
+            </ul>
+          </div>
+      </nav>
+
+      <!-- KLAR
+        BOTTOM -->
+      <ul class="bottom container">
+        <div class="row">
+          <div class="d-sm-flex gap-5">
+            <div class="shopping">
+            <span class="h2">Shopping</span>
+            <li><a href="#">Vinterjackor</a></li>
+            <li><a href="#">Pufferjackor</a></li>
+            <li><a href="#">Kappa</a></li>
+            <li><a href="#">Trenchcoats</a></li>
+          </div>
+          <div class="pages">
+            <span class="h2">Mina Sidor</span>
+            <li><a href="#">Mina Ordrar</a></li>
+            <li><a href="#">Mitt Konto</a></li>
+          </div>
+          <div class="service">
+            <span class="h2">Kundtjänst</span>
+            <li><a href="#">Returnpolicy</a></li>
+            <li><a href="#">Integritetspolicy</a></li>
+          </div>
+          </div>
+        </div>
+      </ul>
+    </footer>
+
+    <small class="d-flex justify-content-center">Copyright 2019 FreakyFashion</small>
+
+  </body>
+</html>
+    </main>
+  </body>
+</html>
